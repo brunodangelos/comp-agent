@@ -30,6 +30,4 @@ detect_and_configure_zabbix() {
     fi
 }
 
-# Chamada da função para detectar o sistema operacional e configurar o Zabbix Agent
-# Substitua "SEU_ENDEREÇO_DO_SERVIDOR_ZABBIX" pelo endereço do seu servidor Zabbix
 detect_and_configure_zabbix $1
