@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Função para detectar o sistema operacional e executar atualizações
+# Função para detectar o sistema operacional e instalar zabbix agent
 detect_and_configure_zabbix() {
     if [ -f /etc/os-release ]; then
         source /etc/os-release
